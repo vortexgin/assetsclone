@@ -37,7 +37,6 @@ parameters:
 framework:
     templating:
         assets_base_url: __YOUR_BUCKET_URL__
-...
 ```
 
 ## How to Use
