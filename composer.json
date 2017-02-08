@@ -1,0 +1,14 @@
+{
+    "name": "vortexgin/assetsclone",
+    "license": "GPL v3",
+    "type": "3rd party",
+    "description": "Tools for clone assets into cdn on Symfony project",
+    "autoload": {
+        "psr-4": { "": "src/" }
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "symfony/symfony": "2.8.*",
+        "symfony/assetic-bundle": "~2.3"
+    }
+}
