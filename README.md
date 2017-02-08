@@ -31,6 +31,7 @@ public function registerBundles()
 ```
 ...
 parameters:
+    s3.host: __YOUR_S3_HOST__
     s3.access_key: __YOUR_ACCESS_KEY__
     s3.secret_key: __YOUR_SECRET_KEY__
     s3.bucket_assets: '__YOUR_BUCKET_NAME__'
