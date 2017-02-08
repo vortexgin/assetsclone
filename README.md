@@ -1,6 +1,6 @@
 # Assets Clone
 
-This project is a tool for clone assets into cdn on Symfony project.
+This project is a tool for clone assets into S3 on Symfony project.
 
 ## Install
 ```
