@@ -1,6 +1,6 @@
 <?php
 
-namespace Dailysocial\CoreBundle\Util;
+namespace Vortexgin\AssetsBundle\Util;
 
 final class S3Request {
 	private $verb, $bucket, $uri, $host, $resource = '', $parameters = array(),

@@ -29,7 +29,7 @@ class AsseticCloneCommand extends ContainerAwareCommand
             $this->container->set('request', new Request(), 'request');
 
             $finder = new Finder();
-            $s3 = new S3($this->container->getParameter('s3.access_key'), $this->container->getParameter('s3.secret_key'));
+            $s3 = new S3($this->container->getParameter('s3.access_key'), $this->container->getParameter('s3.secret_key'), $this->container->getParameter('s3.host'));
             $webPath = $this->container->getParameter('kernel.root_dir').'/../web/';
 
             $finder->files()

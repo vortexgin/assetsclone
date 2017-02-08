@@ -1,6 +1,6 @@
 <?php
 
-namespace Dailysocial\CoreBundle\Util;
+namespace Vortexgin\AssetsBundle\Util;
 
 class File
 {

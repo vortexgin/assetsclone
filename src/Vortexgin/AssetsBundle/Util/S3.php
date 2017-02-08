@@ -1,6 +1,6 @@
 <?php
 
-namespace Dailysocial\CoreBundle\Util;
+namespace Vortexgin\AssetsBundle\Util;
 
 /**
 * Redistribution and use in source and binary forms, with or without
